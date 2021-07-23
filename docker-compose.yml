@@ -27,7 +27,7 @@ services:
     volumes:
       - ./.mysql:/var/lib/mysql
     environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_ROOT_PASSWORD: 'SmxQwGNMST4Ee6tMSDys'
 networks:
   default:
     name: telegram-api-server
